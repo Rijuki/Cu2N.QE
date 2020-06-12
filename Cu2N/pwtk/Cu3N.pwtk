@@ -1,0 +1,20 @@
+#------------pw.x calculation---------------
+source input.pwtk
+
+
+
+foreach M {4 8 12} {
+	set fid [open ecut.$M.dat w]
+	foreach ecut { 5 10 15 20 25 } {
+
+		set name pw.$ecut*$M
+	
+		SYSTEM "ecutwfc = $ecut, ecutrho = $M*$ecut"
+		runPW $name.in
+	
+		set Etot [::pwtk::pwo::totene $name.out]
+		puts $fid "$ecut $Etot"
+	}
+	close $fid
+}
+

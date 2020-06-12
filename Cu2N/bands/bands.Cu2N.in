@@ -1,0 +1,6 @@
+&BANDS
+ outdir    = './tmp/',
+ prefix    = 'Cu2N',
+ filband   = 'Cu2N.bands',
+/
+EOF

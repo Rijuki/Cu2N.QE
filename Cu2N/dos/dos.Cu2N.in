@@ -1,0 +1,7 @@
+&DOS
+ prefix='Cu2N',
+ outdir='./tmp/',
+ fildos='Cu2N.dos'
+ emin=-9.0,
+ emax=16.0,
+/

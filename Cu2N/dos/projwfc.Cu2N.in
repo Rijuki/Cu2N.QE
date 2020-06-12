@@ -1,0 +1,9 @@
+&PROJWFC
+	prefix = 'Cu2N',
+	outdir = './tmp',
+	Emin=-9.0,
+	Emax=16.0,	
+	DeltaE = 0.1,	
+	filpdos = 'Cu2N.pdos',
+/
+EOF

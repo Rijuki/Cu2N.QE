@@ -1,0 +1,16 @@
+ &inputpp
+    prefix   = 'Cu2N'
+    outdir   = './tmp'
+    plot_num = 5,
+	sample_bias = 0.00
+ /
+ &plot
+    iflag=2,
+	output_format=7,
+	fileout='ldos.dat',
+	e1(1)=1.0, e1(2)=0.0, e1(3)=0.0,
+    e2(1)=0.0, e2(2)=1.0, e2(3)=0.0,
+	e3(1)=0.0, e3(2)=0.0, e3(3)=1.0,
+    nx=64, ny=64, nz=64,
+ /
+EOF

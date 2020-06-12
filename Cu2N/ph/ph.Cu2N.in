@@ -1,0 +1,10 @@
+Phonon calculation at gamma point
+&INPUTPH
+  outdir = './tmp',
+  prefix = 'Cu2N',
+  tr2_ph = 1.0d-14,
+  ldisp  = .true.,
+  nq1 = 2, nq2 = 2, nq3 = 2,
+  fildyn = 'Cu2N.dyn',
+/
+EOF

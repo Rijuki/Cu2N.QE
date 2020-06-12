@@ -1,0 +1,302 @@
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: Rijuki
+--------------------------------------------------------------------------
+
+     Program PWSCF v.6.0 (svn rev. 13079) starts on 23Apr2020 at 14: 5:56 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    15 processors
+     R & G space division:  proc/nbgrp/npool/nimage =      15
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     Atomic positions and unit cell read from directory:
+     ./tmp/Cu2N.save/
+
+               file Cu.pbe-dn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 3D renormalized
+               file N.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  2S renormalized
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     ELPA distributed-memory algorithm (size of sub-group:  2*  2 procs)
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          41      41     12                  788      788     128
+     Max          43      43     13                  790      790     131
+     Sum         633     633    185                11837    11837    1935
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       7.0298  a.u.
+     unit-cell volume          =     347.3965 (a.u.)^3
+     number of atoms/cell      =            5
+     number of atomic types    =            2
+     number of electrons       =        49.00
+     number of Kohn-Sham states=           20
+     kinetic-energy cutoff     =      40.0000  Ry
+     charge density cutoff     =     160.0000  Ry
+     Exchange-correlation      =  SLA  PW   PBX  PBC ( 1  4  3  4 0 0)
+
+     celldm(1)=   7.029781  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.000000 )  
+
+
+     PseudoPot. # 1 for Cu read from file:
+     ../pseudo/Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: cfffd1f38ee05704b3e17f46f1730a6f
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using "atomic" code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1199 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for  N read from file:
+     ../pseudo/N.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 14c48229446f9f2d411169a3abcbc3fa
+     Pseudo is Projector augmented-wave + core cor, Zval =  5.0
+     Generated using "atomic" code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1085 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Cu            11.00    63.54600     Cu( 1.00)
+        N              5.00    14.00700      N( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+        Cu           0.000
+        N            0.500
+
+     48 Sym. Ops., with inversion, found (32 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Cu  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Cu  tau(   2) = (   0.5000000   0.5000000   0.0000000  )
+         3           Cu  tau(   3) = (   0.0000000   0.5000000   0.5000000  )
+         4           Cu  tau(   4) = (   0.5000000   0.0000000   0.5000000  )
+         5           N   tau(   5) = (   0.0000000   0.5000000   0.9999997  )
+
+     number of k points=    91  gaussian smearing, width (Ry)=  0.0200
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0109890
+        k(    2) = (   0.0166667   0.0000000   0.0000000), wk =   0.0109890
+        k(    3) = (   0.0333333   0.0000000   0.0000000), wk =   0.0109890
+        k(    4) = (   0.0500000   0.0000000   0.0000000), wk =   0.0109890
+        k(    5) = (   0.0666667   0.0000000   0.0000000), wk =   0.0109890
+        k(    6) = (   0.0833333   0.0000000   0.0000000), wk =   0.0109890
+        k(    7) = (   0.1000000   0.0000000   0.0000000), wk =   0.0109890
+        k(    8) = (   0.1166667   0.0000000   0.0000000), wk =   0.0109890
+        k(    9) = (   0.1333333   0.0000000   0.0000000), wk =   0.0109890
+        k(   10) = (   0.1500000   0.0000000   0.0000000), wk =   0.0109890
+        k(   11) = (   0.1666667   0.0000000   0.0000000), wk =   0.0109890
+        k(   12) = (   0.1833333   0.0000000   0.0000000), wk =   0.0109890
+        k(   13) = (   0.2000000   0.0000000   0.0000000), wk =   0.0109890
+        k(   14) = (   0.2166667   0.0000000   0.0000000), wk =   0.0109890
+        k(   15) = (   0.2333333   0.0000000   0.0000000), wk =   0.0109890
+        k(   16) = (   0.2500000   0.0000000   0.0000000), wk =   0.0109890
+        k(   17) = (   0.2666667   0.0000000   0.0000000), wk =   0.0109890
+        k(   18) = (   0.2833333   0.0000000   0.0000000), wk =   0.0109890
+        k(   19) = (   0.3000000   0.0000000   0.0000000), wk =   0.0109890
+        k(   20) = (   0.3166667   0.0000000   0.0000000), wk =   0.0109890
+        k(   21) = (   0.3333333   0.0000000   0.0000000), wk =   0.0109890
+        k(   22) = (   0.3500000   0.0000000   0.0000000), wk =   0.0109890
+        k(   23) = (   0.3666667   0.0000000   0.0000000), wk =   0.0109890
+        k(   24) = (   0.3833333   0.0000000   0.0000000), wk =   0.0109890
+        k(   25) = (   0.4000000   0.0000000   0.0000000), wk =   0.0109890
+        k(   26) = (   0.4166667   0.0000000   0.0000000), wk =   0.0109890
+        k(   27) = (   0.4333333   0.0000000   0.0000000), wk =   0.0109890
+        k(   28) = (   0.4500000   0.0000000   0.0000000), wk =   0.0109890
+        k(   29) = (   0.4666667   0.0000000   0.0000000), wk =   0.0109890
+        k(   30) = (   0.4833333   0.0000000   0.0000000), wk =   0.0109890
+        k(   31) = (   0.5000000   0.0000000   0.0000000), wk =   0.0109890
+        k(   32) = (   0.5000000  -0.0166667   0.0000000), wk =   0.0109890
+        k(   33) = (   0.5000000  -0.0333333   0.0000000), wk =   0.0109890
+        k(   34) = (   0.5000000  -0.0500000   0.0000000), wk =   0.0109890
+        k(   35) = (   0.5000000  -0.0666667   0.0000000), wk =   0.0109890
+        k(   36) = (   0.5000000  -0.0833333   0.0000000), wk =   0.0109890
+        k(   37) = (   0.5000000  -0.1000000   0.0000000), wk =   0.0109890
+        k(   38) = (   0.5000000  -0.1166667   0.0000000), wk =   0.0109890
+        k(   39) = (   0.5000000  -0.1333333   0.0000000), wk =   0.0109890
+        k(   40) = (   0.5000000  -0.1500000   0.0000000), wk =   0.0109890
+        k(   41) = (   0.5000000  -0.1666667   0.0000000), wk =   0.0109890
+        k(   42) = (   0.5000000  -0.1833333   0.0000000), wk =   0.0109890
+        k(   43) = (   0.5000000  -0.2000000   0.0000000), wk =   0.0109890
+        k(   44) = (   0.5000000  -0.2166667   0.0000000), wk =   0.0109890
+        k(   45) = (   0.5000000  -0.2333333   0.0000000), wk =   0.0109890
+        k(   46) = (   0.5000000  -0.2500000   0.0000000), wk =   0.0109890
+        k(   47) = (   0.5000000  -0.2666667   0.0000000), wk =   0.0109890
+        k(   48) = (   0.5000000  -0.2833333   0.0000000), wk =   0.0109890
+        k(   49) = (   0.5000000  -0.3000000   0.0000000), wk =   0.0109890
+        k(   50) = (   0.5000000  -0.3166667   0.0000000), wk =   0.0109890
+        k(   51) = (   0.5000000  -0.3333333   0.0000000), wk =   0.0109890
+        k(   52) = (   0.5000000  -0.3500000   0.0000000), wk =   0.0109890
+        k(   53) = (   0.5000000  -0.3666667   0.0000000), wk =   0.0109890
+        k(   54) = (   0.5000000  -0.3833333   0.0000000), wk =   0.0109890
+        k(   55) = (   0.5000000  -0.4000000   0.0000000), wk =   0.0109890
+        k(   56) = (   0.5000000  -0.4166667   0.0000000), wk =   0.0109890
+        k(   57) = (   0.5000000  -0.4333333   0.0000000), wk =   0.0109890
+        k(   58) = (   0.5000000  -0.4500000   0.0000000), wk =   0.0109890
+        k(   59) = (   0.5000000  -0.4666667   0.0000000), wk =   0.0109890
+        k(   60) = (   0.5000000  -0.4833333   0.0000000), wk =   0.0109890
+        k(   61) = (   0.5000000  -0.5000000   0.0000000), wk =   0.0109890
+        k(   62) = (   0.4833333  -0.4833333   0.0000000), wk =   0.0109890
+        k(   63) = (   0.4666667  -0.4666667   0.0000000), wk =   0.0109890
+        k(   64) = (   0.4500000  -0.4500000   0.0000000), wk =   0.0109890
+        k(   65) = (   0.4333333  -0.4333333   0.0000000), wk =   0.0109890
+        k(   66) = (   0.4166667  -0.4166667   0.0000000), wk =   0.0109890
+        k(   67) = (   0.4000000  -0.4000000   0.0000000), wk =   0.0109890
+        k(   68) = (   0.3833333  -0.3833333   0.0000000), wk =   0.0109890
+        k(   69) = (   0.3666667  -0.3666667   0.0000000), wk =   0.0109890
+        k(   70) = (   0.3500000  -0.3500000   0.0000000), wk =   0.0109890
+        k(   71) = (   0.3333333  -0.3333333   0.0000000), wk =   0.0109890
+        k(   72) = (   0.3166667  -0.3166667   0.0000000), wk =   0.0109890
+        k(   73) = (   0.3000000  -0.3000000   0.0000000), wk =   0.0109890
+        k(   74) = (   0.2833333  -0.2833333   0.0000000), wk =   0.0109890
+        k(   75) = (   0.2666667  -0.2666667   0.0000000), wk =   0.0109890
+        k(   76) = (   0.2500000  -0.2500000   0.0000000), wk =   0.0109890
+        k(   77) = (   0.2333333  -0.2333333   0.0000000), wk =   0.0109890
+        k(   78) = (   0.2166667  -0.2166667   0.0000000), wk =   0.0109890
+        k(   79) = (   0.2000000  -0.2000000   0.0000000), wk =   0.0109890
+        k(   80) = (   0.1833333  -0.1833333   0.0000000), wk =   0.0109890
+        k(   81) = (   0.1666667  -0.1666667   0.0000000), wk =   0.0109890
+        k(   82) = (   0.1500000  -0.1500000   0.0000000), wk =   0.0109890
+        k(   83) = (   0.1333333  -0.1333333   0.0000000), wk =   0.0109890
+        k(   84) = (   0.1166667  -0.1166667   0.0000000), wk =   0.0109890
+        k(   85) = (   0.1000000  -0.1000000   0.0000000), wk =   0.0109890
+        k(   86) = (   0.0833333  -0.0833333   0.0000000), wk =   0.0109890
+        k(   87) = (   0.0666667  -0.0666667   0.0000000), wk =   0.0109890
+        k(   88) = (   0.0500000  -0.0500000   0.0000000), wk =   0.0109890
+        k(   89) = (   0.0333333  -0.0333333   0.0000000), wk =   0.0109890
+        k(   90) = (   0.0166667  -0.0166667   0.0000000), wk =   0.0109890
+        k(   91) = (   0.0000000   0.0000000   0.0000000), wk =   0.0109890
+
+     Dense  grid:    11837 G-vectors     FFT dimensions: (  30,  30,  30)
+
+     Estimated max dynamical RAM per process >       0.79Mb
+
+     Estimated total allocated dynamical RAM >      11.80Mb
+     Generating pointlists ...
+     new r_m :   0.2062 (alat units)  1.4499 (a.u.) for type    1
+     new r_m :   0.2062 (alat units)  1.4499 (a.u.) for type    2
+
+     Check: negative/imaginary core charge=   -0.000013    0.000000
+
+     The potential is recalculated from file :
+     ./tmp/Cu2N.save/charge-density.dat
+
+     Starting wfc are   40 randomized atomic wfcs
+     Checking if some PAW data can be deallocated... 
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+
+     ethr =  2.04E-13,  avg # of iterations = 43.2
+
+     total cpu time spent up to now is      404.2 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     Writing output data file Cu2N.save
+
+     init_run     :      1.20s CPU      4.81s WALL (       1 calls)
+     electrons    :    162.84s CPU    395.17s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     potinit      :      0.72s CPU      2.87s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :    162.84s CPU    395.17s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.04s WALL (       1 calls)
+     newd         :      0.02s CPU      0.05s WALL (       1 calls)
+     PAW_pot      :      0.70s CPU      2.80s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.05s CPU      0.03s WALL (     182 calls)
+     cegterg      :    157.23s CPU    377.05s WALL (     470 calls)
+
+     Called by sum_band:
+
+     Called by *egterg:
+     h_psi        :     39.16s CPU    156.58s WALL (    8515 calls)
+     s_psi        :      3.75s CPU      4.04s WALL (    8515 calls)
+     g_psi        :      0.06s CPU      0.09s WALL (    7863 calls)
+     cdiaghg      :     56.41s CPU    100.68s WALL (    8045 calls)
+
+     Called by h_psi:
+     h_psi:pot    :     39.11s CPU    156.46s WALL (    8515 calls)
+     h_psi:calbec :      6.48s CPU     29.03s WALL (    8515 calls)
+     vloc_psi     :     28.73s CPU    123.17s WALL (    8515 calls)
+     add_vuspsi   :      3.88s CPU      4.17s WALL (    8515 calls)
+
+     General routines
+     calbec       :      6.44s CPU     28.98s WALL (    8515 calls)
+     fft          :      0.00s CPU      0.13s WALL (      21 calls)
+     fftw         :     27.78s CPU    121.83s WALL (  185664 calls)
+     davcio       :      0.00s CPU      0.03s WALL (     182 calls)
+
+     Parallel routines
+     fft_scatter  :     11.88s CPU    104.47s WALL (  185685 calls)
+
+     PWSCF        :  2m46.06s CPU     6m46.80s WALL
+
+
+   This run was terminated on:  14:12:43  23Apr2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

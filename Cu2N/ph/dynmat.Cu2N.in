@@ -1,0 +1,6 @@
+&Input
+	fildyn = 'Cu2N.dyn',
+	fileig = 'phfreq&eigenvectors.Cu2N.txt',
+	filxsf = 'dynmat.axsf',	
+/
+EOF

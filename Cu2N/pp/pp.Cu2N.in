@@ -1,0 +1,16 @@
+ &INPUTPP
+   filplot         = 'Cu2N.pp'
+   outdir          = './tmp'
+   plot_num        = 7
+   kband(1) 	   = 4
+   prefix          = 'Cu2N'
+ /
+
+
+ &PLOT
+   iflag           =  3,
+   output_format   =  7,
+   fileout         =  '.xsf',
+ /
+
+

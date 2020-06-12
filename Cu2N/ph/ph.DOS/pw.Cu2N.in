@@ -1,0 +1,43 @@
+ &CONTROL
+    prefix     = 'Cu2N',
+    pseudo_dir = '../../pseudo',
+    outdir     = './tmp',
+/
+ &SYSTEM    
+    ibrav       = 0, 
+	nat         = 5, 
+	ntyp        = 2,
+	occupations = 'smearing',
+    ecutwfc     = 40.0,
+	ecutrho     = 160.0,
+	smearing    = 'gauss', 
+	degauss     = 0.02,
+	nspin       = 2,
+	
+    starting_magnetization(1) = 0.0,
+    starting_magnetization(2) = 0.0,	
+ /
+ 
+ &ELECTRONS
+	conv_thr = 1.0e-10
+    mixing_beta = 0.7
+ /
+
+ATOMIC_SPECIES
+ Cu 63.546 Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
+ N  14.007 N.pbe-n-kjpaw_psl.1.0.0.UPF
+ 
+CELL_PARAMETERS angstrom
+ 3.72 0.00 0.00
+ 0.00 3.72 0.00
+ 0.00 0.00 3.72 
+ 
+ATOMIC_POSITIONS angstrom 
+ Cu 0.00 0.00 0.00
+ Cu 1.86 1.86 0.00
+ Cu 0.00 1.86 1.86
+ Cu 1.86 0.00 1.86
+ N  0.00 1.86 3.719999999999
+
+K_POINTS automatic
+   4 4 4  1 1 1

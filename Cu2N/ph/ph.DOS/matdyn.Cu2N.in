@@ -1,0 +1,8 @@
+ &input
+    asr = 'simple',
+	dos = .true.,
+    flfrc='Cu2N222.fc',
+	fldos='Cu2N.phdos',
+	nk1=50, nk2=50, nk3=50,
+/
+EOF

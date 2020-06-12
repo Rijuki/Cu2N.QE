@@ -1,0 +1,9 @@
+source pp.pwtk
+
+foreach sb [seq -0.10 0.01 0.10] {
+	print "STM image for sample bias: $sb\n"
+	INPUTPP " sample_bias = $sb "
+	runPP pp.Cu2N.in
+	
+	exec gnuplot Cu2N.gnu
+}
