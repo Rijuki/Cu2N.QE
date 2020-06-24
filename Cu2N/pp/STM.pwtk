@@ -3,6 +3,8 @@ source pp.pwtk
 foreach sb [seq -0.10 0.01 0.10] {
 	print "STM image for sample bias: $sb\n"
 	INPUTPP " sample_bias = $sb "
-	PLOT " fileout='ldos.$sb.dat' "
+	PLOT " fileout='pwtk.$sb.dat' "
 	runPP pp.Cu2N.in
 }
+
+# {-0.1}

@@ -2,15 +2,14 @@
     prefix     = 'Cu2N',
     pseudo_dir = '../pseudo',
     outdir     = './tmp',
-	disk_io = 'low'
 /
  &SYSTEM    
     ibrav       = 0, 
 	nat         = 5, 
 	ntyp        = 2,
 	occupations = 'smearing',
-    ecutwfc     = 30.0,
-	ecutrho     = 240.0,
+    ecutwfc     = 40.0,
+	ecutrho     = 160.0,
 	smearing    = 'gauss', 
 	degauss     = 0.02,
 	nspin       = 2,
@@ -29,15 +28,16 @@ ATOMIC_SPECIES
  N  14.007 N.pbe-n-kjpaw_psl.1.0.0.UPF
  
 CELL_PARAMETERS angstrom
-   3.707149092   0.000000000   0.000000000
-   0.000000000   3.706688191   0.000000000
-   0.000000000   0.000000000   3.875552627
+ 3.72 0.00 0.00
+ 0.00 3.72 0.00
+ 0.00 0.00 3.72 
  
 ATOMIC_POSITIONS angstrom 
-Cu       0.000000000   0.000000000   0.000000000
-Cu       1.853574546   1.853344096   0.000000000
-Cu       0.000000000   1.853344096   1.760588164
-Cu       1.853574546   0.000000000   1.760133520
-N        0.000000000   1.853344096   3.698387417
+ Cu 0.00 0.00 0.00
+ Cu 1.86 1.86 0.00
+ Cu 0.00 1.86 1.86
+ Cu 1.86 0.00 1.86
+ N  0.00 1.86 3.719999999999
 
-K_POINTS gamma
+K_POINTS automatic
+   4 4 4  1 1 1

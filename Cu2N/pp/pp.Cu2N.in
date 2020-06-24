@@ -1,16 +1,24 @@
  &INPUTPP
-   filplot         = 'Cu2N.pp'
-   outdir          = './tmp'
-   plot_num        = 7
-   kband(1) 	   = 4
-   prefix          = 'Cu2N'
+   filplot         =  'Cu2N.pp',
+   outdir          =  './tmp',
+   plot_num        =  5,
+   prefix          =  'Cu2N',
+   sample_bias     =  -0.1,
  /
 
 
  &PLOT
-   iflag           =  3,
-   output_format   =  7,
-   fileout         =  '.xsf',
+   e1(1)           =  1.0,
+   e1(2)           =  0.0,
+   e1(3)           =  0.0,
+   e2(1)           =  0.0,
+   e2(2)           =  1.0,
+   e2(3)           =  0.0,
+   fileout         =  'pwtk.-0.1.dat',
+   iflag           =  2,
+   nx              =  64,
+   ny              =  64,
+   output_format   =  2,
  /
 
 
