@@ -1,0 +1,6 @@
+&input
+	fildyn = 'Cu2N.dyn',
+	asr = 'simple',
+	filxsf = 'dynmat.axsf',	
+/
+EOF

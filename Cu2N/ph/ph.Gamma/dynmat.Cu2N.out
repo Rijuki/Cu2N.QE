@@ -1,0 +1,61 @@
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
+
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: Rijuki
+--------------------------------------------------------------------------
+
+     Program DYNMAT v.6.0 (svn rev. 13079) starts on 26Jun2020 at 13:40:13 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    10 processors
+     R & G space division:  proc/nbgrp/npool/nimage =      10
+
+     Reading Dynamical Matrix from file Cu2N.dyn
+     ...Force constants read
+     ...epsilon and Z* not read (not found on file)
+     A direction for q was not specified:TO-LO splitting will be absent
+
+     Polarizability (A^3 units)
+     multiply by 1.000000 for Clausius-Mossotti correction
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1     -0.00   -0.0000    0.0000
+    2     -0.00   -0.0000    0.0000
+    3      0.00    0.0000    0.0000
+    4     98.81    2.9624    0.0000
+    5     99.64    2.9870    0.0000
+    6    104.44    3.1310    0.0000
+    7    150.65    4.5162    0.0000
+    8    150.87    4.5229    0.0000
+    9    156.15    4.6814    0.0000
+   10    188.38    5.6475    0.0000
+   11    188.44    5.6492    0.0000
+   12    192.35    5.7665    0.0000
+   13    717.72   21.5166    0.0000
+   14    724.72   21.7265    0.0000
+   15    772.50   23.1590    0.0000
+
+     DYNMAT       :     0.00s CPU         0.03s WALL
+
+
+   This run was terminated on:  13:40:13  26Jun2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
