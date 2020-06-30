@@ -1,0 +1,6 @@
+ &input
+  zasr='simple',  
+  fildyn='Cu2N.dyn', 
+  flfrc='Cu2N222.fc',
+ /
+EOF
