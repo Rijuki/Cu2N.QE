@@ -6,13 +6,13 @@
 <Root>
   <STATUS_PH>
     <STOPPED_IN type="character" size="1" len="10">
-solve_lint
+dynmatrix.
     </STOPPED_IN>
     <RECOVER_CODE type="integer" size="1">
-        10
+        30
     </RECOVER_CODE>
     <CURRENT_Q type="integer" size="1">
-         5
+         1
     </CURRENT_Q>
     <CURRENT_IU type="integer" size="1">
          1
