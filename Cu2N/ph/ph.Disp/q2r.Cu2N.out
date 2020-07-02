@@ -1,15 +1,5 @@
---------------------------------------------------------------------------
-WARNING: Linux kernel CMA support was requested via the
-btl_vader_single_copy_mechanism MCA variable, but CMA support is
-not available due to restrictive ptrace settings.
 
-The vader shared memory BTL will fall back on another single-copy
-mechanism if one is available. This may result in lower performance.
-
-  Local host: Rijuki
---------------------------------------------------------------------------
-
-     Program Q2R v.6.0 (svn rev. 13079) starts on 22Apr2020 at 18:16:57 
+     Program Q2R v.6.0 (svn rev. 13079) starts on  2Jul2020 at 10:54:53 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -18,8 +8,7 @@ mechanism if one is available. This may result in lower performance.
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
 
-     Parallel version (MPI), running on    12 processors
-     R & G space division:  proc/nbgrp/npool/nimage =      12
+     Parallel version (MPI), running on     1 processors
 
      reading grid info from file Cu2N.dyn0    
   reading force constants from file Cu2N.dyn1
@@ -27,31 +16,35 @@ mechanism if one is available. This may result in lower performance.
   nqs=            1
  q=   0.00000000  0.00000000  0.00000000
   reading force constants from file Cu2N.dyn2
-  nqs=            2
+  nqs=            1
  q=   0.00000000  0.00000000 -0.50000000
- q=  -0.50000000  0.00000000  0.00000000
   reading force constants from file Cu2N.dyn3
   nqs=            1
- q=   0.00000000 -0.50000000  0.00000000
+ q=   0.00000000 -0.50006217  0.00000000
   reading force constants from file Cu2N.dyn4
-  nqs=            2
- q=   0.00000000 -0.50000000 -0.50000000
- q=  -0.50000000  0.50000000  0.00000000
+  nqs=            1
+ q=   0.00000000 -0.50006217 -0.50000000
   reading force constants from file Cu2N.dyn5
   nqs=            1
- q=  -0.50000000  0.00000000 -0.50000000
+ q=  -0.50000000  0.00000000  0.00000000
   reading force constants from file Cu2N.dyn6
   nqs=            1
- q=  -0.50000000 -0.50000000 -0.50000000
+ q=  -0.50000000  0.00000000 -0.50000000
+  reading force constants from file Cu2N.dyn7
+  nqs=            1
+ q=  -0.50000000 -0.50006217  0.00000000
+  reading force constants from file Cu2N.dyn8
+  nqs=            1
+ q=  -0.50000000 -0.50006217 -0.50000000
 
       q-space grid ok, #points =    8
 
-      fft-check warning: sum of imaginary terms = 1.600000E-07
+      fft-check success (sum of imaginary terms < 10^-12)
 
-     Q2R          :     0.03s CPU         0.14s WALL
+     Q2R          :     0.02s CPU         0.05s WALL
 
 
-   This run was terminated on:  18:16:57  22Apr2020            
+   This run was terminated on:  10:54:53   2Jul2020            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
