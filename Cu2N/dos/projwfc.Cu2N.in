@@ -5,5 +5,8 @@
 	Emax=16.0,	
 	DeltaE = 0.1,	
 	filpdos = 'Cu2N.pdos',
+	filproj = 'Cu2N.proj',
+	plotboxes = .true.,
+	
 /
 EOF

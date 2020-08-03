@@ -1,5 +1,15 @@
+--------------------------------------------------------------------------
+WARNING: Linux kernel CMA support was requested via the
+btl_vader_single_copy_mechanism MCA variable, but CMA support is
+not available due to restrictive ptrace settings.
 
-     Program MATDYN v.6.0 (svn rev. 13079) starts on  2Jul2020 at 10:55: 8 
+The vader shared memory BTL will fall back on another single-copy
+mechanism if one is available. This may result in lower performance.
+
+  Local host: DESKTOP-L90FV74
+--------------------------------------------------------------------------
+
+     Program MATDYN v.6.0 (svn rev. 13079) starts on 29Jul2020 at 16:12:56 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -8,7 +18,8 @@
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
 
-     Parallel version (MPI), running on     1 processors
+     Parallel version (MPI), running on    15 processors
+     R & G space division:  proc/nbgrp/npool/nimage =      15
  mass for atomic type   1 not given; uses mass from file Cu2N222.fc                                                                                                                                                                                                                                                      
  mass for atomic type   2 not given; uses mass from file Cu2N222.fc                                                                                                                                                                                                                                                      
      Message from routine matdyn:
@@ -18,10 +29,10 @@
      Z* not found in file Cu2N222.fc, TO-LO splitting at q=0 will be absent!
      A direction for q was not specified:TO-LO splitting will be absent
 
-     MATDYN       :     0.03s CPU         0.04s WALL
+     MATDYN       :     0.02s CPU         0.06s WALL
 
 
-   This run was terminated on:  10:55: 8   2Jul2020            
+   This run was terminated on:  16:12:56  29Jul2020            
 
 =------------------------------------------------------------------------------=
    JOB DONE.

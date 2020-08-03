@@ -1,5 +1,5 @@
 # set Fermi energy to correct value
-Efermi=2.211
+Efermi=14.493
 
 set grid
 set xzeroaxis lt -1

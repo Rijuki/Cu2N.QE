@@ -36,10 +36,10 @@ None
 free
     </BRAVAIS_LATTICE>
     <LATTICE_PARAMETER type="real" size="1" UNITS="Bohr">
- 7.029781214334593E+000
+ 7.005496517655684E+000
     </LATTICE_PARAMETER>
     <CELL_DIMENSIONS type="real" size="6">
- 7.029781214334593E+000
+ 7.005496517655684E+000
  0.000000000000000E+000
  0.000000000000000E+000
  0.000000000000000E+000
@@ -49,13 +49,13 @@ free
     <DIRECT_LATTICE_VECTORS>
       <UNITS_FOR_DIRECT_LATTICE_VECTORS UNITS="Bohr"/>
       <a1 type="real" size="3" columns="3">
- 7.029781214334593E+000  0.000000000000000E+000  0.000000000000000E+000
+ 7.005496517655684E+000  0.000000000000000E+000  0.000000000000000E+000
       </a1>
       <a2 type="real" size="3" columns="3">
- 0.000000000000000E+000  7.029781214334593E+000  0.000000000000000E+000
+ 0.000000000000000E+000  7.004625540991310E+000  0.000000000000000E+000
       </a2>
       <a3 type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  7.029781214334593E+000
+ 0.000000000000000E+000  0.000000000000000E+000  7.005496517655684E+000
       </a3>
     </DIRECT_LATTICE_VECTORS>
     <RECIPROCAL_LATTICE_VECTORS>
@@ -64,7 +64,7 @@ free
  1.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
       </b1>
       <b2 type="real" size="3" columns="3">
- 0.000000000000000E+000  1.000000000000000E+000  0.000000000000000E+000
+ 0.000000000000000E+000  1.000124343072913E+000  0.000000000000000E+000
       </b2>
       <b3 type="real" size="3" columns="3">
  0.000000000000000E+000  0.000000000000000E+000  1.000000000000000E+000
@@ -106,20 +106,20 @@ N.pbe-n-kjpaw_psl.1.0.0.UPF
     </PSEUDO_DIR>
     <UNITS_FOR_ATOMIC_POSITIONS UNITS="Bohr"/>
     <ATOM.1 SPECIES="Cu " INDEX="1" tau="0.000000000000000E+000 0.000000000000000E+000 0.000000000000000E+000" if_pos="1 1 1"/>
-    <ATOM.2 SPECIES="Cu " INDEX="1" tau="3.514890607167297E+000 3.514890607167297E+000 0.000000000000000E+000" if_pos="1 1 1"/>
-    <ATOM.3 SPECIES="Cu " INDEX="1" tau="0.000000000000000E+000 3.514890607167297E+000 3.514890607167297E+000" if_pos="1 1 1"/>
-    <ATOM.4 SPECIES="Cu " INDEX="1" tau="3.514890607167297E+000 0.000000000000000E+000 3.514890607167297E+000" if_pos="1 1 1"/>
-    <ATOM.5 SPECIES="N  " INDEX="2" tau="0.000000000000000E+000 3.514890607167297E+000 7.029779324608461E+000" if_pos="1 1 1"/>
+    <ATOM.2 SPECIES="Cu " INDEX="1" tau="3.502748258827842E+000 3.502312771440518E+000 0.000000000000000E+000" if_pos="1 1 1"/>
+    <ATOM.3 SPECIES="Cu " INDEX="1" tau="0.000000000000000E+000 3.502312771440518E+000 3.327029462759955E+000" if_pos="1 1 1"/>
+    <ATOM.4 SPECIES="Cu " INDEX="1" tau="3.502748258827842E+000 0.000000000000000E+000 3.326170310111995E+000" if_pos="1 1 1"/>
+    <ATOM.5 SPECIES="N  " INDEX="2" tau="0.000000000000000E+000 3.502312771440518E+000 6.988939351440333E+000" if_pos="1 1 1"/>
   </IONS>
   <SYMMETRIES>
     <NUMBER_OF_SYMMETRIES type="integer" size="1">
-        48
+         4
     </NUMBER_OF_SYMMETRIES>
     <NUMBER_OF_BRAVAIS_SYMMETRIES type="integer" size="1">
-        48
+        16
     </NUMBER_OF_BRAVAIS_SYMMETRIES>
     <INVERSION_SYMMETRY type="logical" size="1">
-T
+F
     </INVERSION_SYMMETRY>
     <DO_NOT_USE_TIME_REVERSAL type="logical" size="1">
 F
@@ -163,342 +163,6 @@ F
       </EQUIVALENT_IONS>
     </SYMM.2>
     <SYMM.3>
-      <INFO NAME="180 deg rotation - cart. axis [0,1,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-        -1          0          0 
-         0          1          0 
-         0          0         -1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          2          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.3>
-    <SYMM.4>
-      <INFO NAME="180 deg rotation - cart. axis [1,0,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         1          0          0 
-         0         -1          0 
-         0          0         -1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          2          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.4>
-    <SYMM.5>
-      <INFO NAME="180 deg rotation - cart. axis [1,1,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          1          0 
-         1          0          0 
-         0          0         -1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.5>
-    <SYMM.6>
-      <INFO NAME="180 deg rotation - cart. axis [1,-1,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0         -1          0 
-        -1          0          0 
-         0          0         -1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.6>
-    <SYMM.7>
-      <INFO NAME=" 90 deg rotation - cart. axis [0,0,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          1          0 
-        -1          0          0 
-         0          0          1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.7>
-    <SYMM.8>
-      <INFO NAME=" 90 deg rotation - cart. axis [0,0,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0         -1          0 
-         1          0          0 
-         0          0          1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.8>
-    <SYMM.9>
-      <INFO NAME="180 deg rotation - cart. axis [1,0,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0          1 
-         0         -1          0 
-         1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.9>
-    <SYMM.10>
-      <INFO NAME="180 deg rotation - cart. axis [-1,0,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0         -1 
-         0         -1          0 
-        -1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.10>
-    <SYMM.11>
-      <INFO NAME=" 90 deg rotation - cart. axis [0,1,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0          1 
-         0          1          0 
-        -1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.11>
-    <SYMM.12>
-      <INFO NAME=" 90 deg rotation - cart. axis [0,-1,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0         -1 
-         0          1          0 
-         1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.12>
-    <SYMM.13>
-      <INFO NAME="180 deg rotation - cart. axis [0,1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-        -1          0          0 
-         0          0          1 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.13>
-    <SYMM.14>
-      <INFO NAME="180 deg rotation - cart. axis [0,1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-        -1          0          0 
-         0          0         -1 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.14>
-    <SYMM.15>
-      <INFO NAME=" 90 deg rotation - cart. axis [-1,0,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         1          0          0 
-         0          0          1 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.15>
-    <SYMM.16>
-      <INFO NAME=" 90 deg rotation - cart. axis [1,0,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         1          0          0 
-         0          0         -1 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.16>
-    <SYMM.17>
-      <INFO NAME="120 deg rotation - cart. axis [-1,-1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          1          0 
-         0          0          1 
-         1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.17>
-    <SYMM.18>
-      <INFO NAME="120 deg rotation - cart. axis [-1,1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0         -1          0 
-         0          0          1 
-        -1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.18>
-    <SYMM.19>
-      <INFO NAME="120 deg rotation - cart. axis [1,1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          1          0 
-         0          0         -1 
-        -1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.19>
-    <SYMM.20>
-      <INFO NAME="120 deg rotation - cart. axis [1,-1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0         -1          0 
-         0          0         -1 
-         1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.20>
-    <SYMM.21>
-      <INFO NAME="120 deg rotation - cart. axis [1,1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0          1 
-         1          0          0 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.21>
-    <SYMM.22>
-      <INFO NAME="120 deg rotation - cart. axis [-1,1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0          1 
-        -1          0          0 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.22>
-    <SYMM.23>
-      <INFO NAME="120 deg rotation - cart. axis [1,-1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0         -1 
-        -1          0          0 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.23>
-    <SYMM.24>
-      <INFO NAME="120 deg rotation - cart. axis [-1,-1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0         -1 
-         1          0          0 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.24>
-    <SYMM.25>
-      <INFO NAME="inversion" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-        -1          0          0 
-         0         -1          0 
-         0          0         -1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          2          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.25>
-    <SYMM.26>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [0,0,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         1          0          0 
-         0          1          0 
-         0          0         -1
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          2          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.26>
-    <SYMM.27>
       <INFO NAME="inv. 180 deg rotation - cart. axis [0,1,0]" T_REV="0"/>
       <ROTATION type="integer" size="9" columns="3">
          1          0          0 
@@ -511,8 +175,8 @@ F
       <EQUIVALENT_IONS type="integer" size="5" columns="8">
          1          2          3          4          5
       </EQUIVALENT_IONS>
-    </SYMM.27>
-    <SYMM.28>
+    </SYMM.3>
+    <SYMM.4>
       <INFO NAME="inv. 180 deg rotation - cart. axis [1,0,0]" T_REV="0"/>
       <ROTATION type="integer" size="9" columns="3">
         -1          0          0 
@@ -525,287 +189,103 @@ F
       <EQUIVALENT_IONS type="integer" size="5" columns="8">
          1          2          3          4          5
       </EQUIVALENT_IONS>
-    </SYMM.28>
-    <SYMM.29>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [1,1,0]" T_REV="0"/>
+    </SYMM.4>
+    <SYMM.5>
+      <INFO NAME="180 deg rotation - cart. axis [1,0,1]"/>
       <ROTATION type="integer" size="9" columns="3">
+         0          0          1 
          0         -1          0 
-        -1          0          0 
-         0          0          1
+         1          0          0
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.29>
-    <SYMM.30>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [1,-1,0]" T_REV="0"/>
+    </SYMM.5>
+    <SYMM.6>
+      <INFO NAME="180 deg rotation - cart. axis [-1,0,1]"/>
       <ROTATION type="integer" size="9" columns="3">
+         0          0         -1 
+         0         -1          0 
+        -1          0          0
+      </ROTATION>
+    </SYMM.6>
+    <SYMM.7>
+      <INFO NAME=" 90 deg rotation - cart. axis [0,1,0]"/>
+      <ROTATION type="integer" size="9" columns="3">
+         0          0          1 
          0          1          0 
-         1          0          0 
-         0          0          1
+        -1          0          0
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.30>
-    <SYMM.31>
-      <INFO NAME="inv.  90 deg rotation - cart. axis [0,0,-1]" T_REV="0"/>
+    </SYMM.7>
+    <SYMM.8>
+      <INFO NAME=" 90 deg rotation - cart. axis [0,-1,0]"/>
       <ROTATION type="integer" size="9" columns="3">
+         0          0         -1 
+         0          1          0 
+         1          0          0
+      </ROTATION>
+    </SYMM.8>
+    <SYMM.9>
+      <INFO NAME="inversion"/>
+      <ROTATION type="integer" size="9" columns="3">
+        -1          0          0 
          0         -1          0 
-         1          0          0 
          0          0         -1
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.31>
-    <SYMM.32>
-      <INFO NAME="inv.  90 deg rotation - cart. axis [0,0,1]" T_REV="0"/>
+    </SYMM.9>
+    <SYMM.10>
+      <INFO NAME="inv. 180 deg rotation - cart. axis [0,0,1]"/>
       <ROTATION type="integer" size="9" columns="3">
+         1          0          0 
          0          1          0 
-        -1          0          0 
          0          0         -1
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          1          3          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.32>
-    <SYMM.33>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [1,0,1]" T_REV="0"/>
+    </SYMM.10>
+    <SYMM.11>
+      <INFO NAME="180 deg rotation - cart. axis [0,1,0]"/>
+      <ROTATION type="integer" size="9" columns="3">
+        -1          0          0 
+         0          1          0 
+         0          0         -1
+      </ROTATION>
+    </SYMM.11>
+    <SYMM.12>
+      <INFO NAME="180 deg rotation - cart. axis [1,0,0]"/>
+      <ROTATION type="integer" size="9" columns="3">
+         1          0          0 
+         0         -1          0 
+         0          0         -1
+      </ROTATION>
+    </SYMM.12>
+    <SYMM.13>
+      <INFO NAME="inv. 180 deg rotation - cart. axis [1,0,1]"/>
       <ROTATION type="integer" size="9" columns="3">
          0          0         -1 
          0          1          0 
         -1          0          0
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.33>
-    <SYMM.34>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [-1,0,1]" T_REV="0"/>
+    </SYMM.13>
+    <SYMM.14>
+      <INFO NAME="inv. 180 deg rotation - cart. axis [-1,0,1]"/>
       <ROTATION type="integer" size="9" columns="3">
          0          0          1 
          0          1          0 
          1          0          0
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.34>
-    <SYMM.35>
-      <INFO NAME="inv.  90 deg rotation - cart. axis [0,1,0]" T_REV="0"/>
+    </SYMM.14>
+    <SYMM.15>
+      <INFO NAME="inv.  90 deg rotation - cart. axis [0,1,0]"/>
       <ROTATION type="integer" size="9" columns="3">
          0          0         -1 
          0         -1          0 
          1          0          0
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.35>
-    <SYMM.36>
-      <INFO NAME="inv.  90 deg rotation - cart. axis [0,-1,0]" T_REV="0"/>
+    </SYMM.15>
+    <SYMM.16>
+      <INFO NAME="inv.  90 deg rotation - cart. axis [0,-1,0]"/>
       <ROTATION type="integer" size="9" columns="3">
          0          0          1 
          0         -1          0 
         -1          0          0
       </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  0.000000000000000E+000  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         1          3          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.36>
-    <SYMM.37>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [0,1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         1          0          0 
-         0          0         -1 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.37>
-    <SYMM.38>
-      <INFO NAME="inv. 180 deg rotation - cart. axis [0,1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         1          0          0 
-         0          0          1 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.38>
-    <SYMM.39>
-      <INFO NAME="inv.  90 deg rotation - cart. axis [-1,0,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-        -1          0          0 
-         0          0         -1 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.39>
-    <SYMM.40>
-      <INFO NAME="inv.  90 deg rotation - cart. axis [1,0,0]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-        -1          0          0 
-         0          0          1 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          2          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.40>
-    <SYMM.41>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [-1,-1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0         -1          0 
-         0          0         -1 
-        -1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.41>
-    <SYMM.42>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [-1,1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          1          0 
-         0          0         -1 
-         1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001  4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.42>
-    <SYMM.43>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [1,1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0         -1          0 
-         0          0          1 
-         1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.43>
-    <SYMM.44>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [1,-1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          1          0 
-         0          0          1 
-        -1          0          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
--4.999999999999999E-001 -4.999999999999999E-001  0.000000000000000E+000
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         2          3          1          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.44>
-    <SYMM.45>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [1,1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0         -1 
-        -1          0          0 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.45>
-    <SYMM.46>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [-1,1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0         -1 
-         1          0          0 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.46>
-    <SYMM.47>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [1,-1,-1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0          1 
-         1          0          0 
-         0         -1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000 -4.999999999999999E-001  4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.47>
-    <SYMM.48>
-      <INFO NAME="inv. 120 deg rotation - cart. axis [-1,-1,1]" T_REV="0"/>
-      <ROTATION type="integer" size="9" columns="3">
-         0          0          1 
-        -1          0          0 
-         0          1          0
-      </ROTATION>
-      <FRACTIONAL_TRANSLATION type="real" size="3" columns="3">
- 0.000000000000000E+000  4.999999999999999E-001 -4.999999999999999E-001
-      </FRACTIONAL_TRANSLATION>
-      <EQUIVALENT_IONS type="integer" size="5" columns="8">
-         3          1          2          4          5
-      </EQUIVALENT_IONS>
-    </SYMM.48>
+    </SYMM.16>
   </SYMMETRIES>
   <ELECTRIC_FIELD>
     <HAS_ELECTRIC_FIELD type="logical" size="1">
@@ -857,18 +337,18 @@ F
  8.000000000000000E+001
     </RHO_CUTOFF>
     <MAX_NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1503
+      1492
     </MAX_NUMBER_OF_GK-VECTORS>
     <GAMMA_ONLY type="logical" size="1">
 F
     </GAMMA_ONLY>
     <FFT_GRID nr1="30" nr2="30" nr3="30"/>
     <GVECT_NUMBER type="integer" size="1">
-     11837
+     11753
     </GVECT_NUMBER>
     <SMOOTH_FFT_GRID nr1s="30" nr2s="30" nr3s="30"/>
     <SMOOTH_GVECT_NUMBER type="integer" size="1">
-     11837
+     11753
     </SMOOTH_GVECT_NUMBER>
     <SMALLBOX_FFT_GRID nr1b="30" nr2b="30" nr3b="30"/>
   </PLANE_WAVES>
@@ -1002,65 +482,65 @@ F
     <K-POINT.29 XYZ="4.666666666666667E-001 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
     <K-POINT.30 XYZ="4.833333333333333E-001 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
     <K-POINT.31 XYZ="5.000000000000000E-001 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.32 XYZ="5.000000000000000E-001 -1.666666666666667E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.33 XYZ="5.000000000000000E-001 -3.333333333333333E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.34 XYZ="5.000000000000000E-001 -5.000000000000000E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.35 XYZ="5.000000000000000E-001 -6.666666666666667E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.36 XYZ="5.000000000000000E-001 -8.333333333333333E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.37 XYZ="5.000000000000000E-001 -1.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.38 XYZ="5.000000000000000E-001 -1.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.39 XYZ="5.000000000000000E-001 -1.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.40 XYZ="5.000000000000000E-001 -1.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.41 XYZ="5.000000000000000E-001 -1.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.42 XYZ="5.000000000000000E-001 -1.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.43 XYZ="5.000000000000000E-001 -2.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.44 XYZ="5.000000000000000E-001 -2.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.45 XYZ="5.000000000000000E-001 -2.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.46 XYZ="5.000000000000000E-001 -2.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.47 XYZ="5.000000000000000E-001 -2.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.48 XYZ="5.000000000000000E-001 -2.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.49 XYZ="5.000000000000000E-001 -3.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.50 XYZ="5.000000000000000E-001 -3.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.51 XYZ="5.000000000000000E-001 -3.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.52 XYZ="5.000000000000000E-001 -3.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.53 XYZ="5.000000000000000E-001 -3.666666666666666E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.54 XYZ="5.000000000000000E-001 -3.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.55 XYZ="5.000000000000000E-001 -4.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.56 XYZ="5.000000000000000E-001 -4.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.57 XYZ="5.000000000000000E-001 -4.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.58 XYZ="5.000000000000000E-001 -4.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.59 XYZ="5.000000000000000E-001 -4.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.60 XYZ="5.000000000000000E-001 -4.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.61 XYZ="5.000000000000000E-001 -5.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.62 XYZ="4.833333333333333E-001 -4.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.63 XYZ="4.666666666666667E-001 -4.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.64 XYZ="4.500000000000000E-001 -4.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.65 XYZ="4.333333333333333E-001 -4.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.66 XYZ="4.166666666666667E-001 -4.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.67 XYZ="4.000000000000000E-001 -4.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.68 XYZ="3.833333333333333E-001 -3.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.69 XYZ="3.666666666666667E-001 -3.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.70 XYZ="3.500000000000000E-001 -3.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.71 XYZ="3.333333333333334E-001 -3.333333333333334E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.72 XYZ="3.166666666666667E-001 -3.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.73 XYZ="3.000000000000000E-001 -3.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.74 XYZ="2.833333333333333E-001 -2.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.75 XYZ="2.666666666666667E-001 -2.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.76 XYZ="2.500000000000000E-001 -2.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.77 XYZ="2.333333333333333E-001 -2.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.78 XYZ="2.166666666666667E-001 -2.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.79 XYZ="2.000000000000000E-001 -2.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.80 XYZ="1.833333333333333E-001 -1.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.81 XYZ="1.666666666666667E-001 -1.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.82 XYZ="1.500000000000000E-001 -1.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.83 XYZ="1.333333333333334E-001 -1.333333333333334E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.84 XYZ="1.166666666666667E-001 -1.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.85 XYZ="9.999999999999998E-002 -9.999999999999998E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.86 XYZ="8.333333333333331E-002 -8.333333333333331E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.87 XYZ="6.666666666666665E-002 -6.666666666666665E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.88 XYZ="4.999999999999999E-002 -4.999999999999999E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.89 XYZ="3.333333333333333E-002 -3.333333333333333E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
-    <K-POINT.90 XYZ="1.666666666666666E-002 -1.666666666666666E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.32 XYZ="5.000000000000000E-001 -1.666873905121522E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.33 XYZ="5.000000000000000E-001 -3.333747810243044E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.34 XYZ="5.000000000000000E-001 -5.000621715364566E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.35 XYZ="5.000000000000000E-001 -6.667495620486089E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.36 XYZ="5.000000000000000E-001 -8.334369525607610E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.37 XYZ="5.000000000000000E-001 -1.000124343072913E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.38 XYZ="5.000000000000000E-001 -1.166811733585065E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.39 XYZ="5.000000000000000E-001 -1.333499124097218E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.40 XYZ="5.000000000000000E-001 -1.500186514609370E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.41 XYZ="5.000000000000000E-001 -1.666873905121522E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.42 XYZ="5.000000000000000E-001 -1.833561295633674E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.43 XYZ="5.000000000000000E-001 -2.000248686145827E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.44 XYZ="5.000000000000000E-001 -2.166936076657979E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.45 XYZ="5.000000000000000E-001 -2.333623467170131E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.46 XYZ="5.000000000000000E-001 -2.500310857682283E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.47 XYZ="5.000000000000000E-001 -2.666998248194435E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.48 XYZ="5.000000000000000E-001 -2.833685638706587E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.49 XYZ="5.000000000000000E-001 -3.000373029218740E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.50 XYZ="5.000000000000000E-001 -3.167060419730892E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.51 XYZ="5.000000000000000E-001 -3.333747810243044E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.52 XYZ="5.000000000000000E-001 -3.500435200755196E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.53 XYZ="5.000000000000000E-001 -3.667122591267348E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.54 XYZ="5.000000000000000E-001 -3.833809981779500E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.55 XYZ="5.000000000000000E-001 -4.000497372291653E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.56 XYZ="5.000000000000000E-001 -4.167184762803805E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.57 XYZ="5.000000000000000E-001 -4.333872153315957E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.58 XYZ="5.000000000000000E-001 -4.500559543828109E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.59 XYZ="5.000000000000000E-001 -4.667246934340262E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.60 XYZ="5.000000000000000E-001 -4.833934324852414E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.61 XYZ="5.000000000000000E-001 -5.000621715364566E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.62 XYZ="4.833333333333333E-001 -4.833934324852414E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.63 XYZ="4.666666666666667E-001 -4.667246934340262E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.64 XYZ="4.500000000000000E-001 -4.500559543828109E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.65 XYZ="4.333333333333333E-001 -4.333872153315957E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.66 XYZ="4.166666666666667E-001 -4.167184762803805E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.67 XYZ="4.000000000000000E-001 -4.000497372291653E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.68 XYZ="3.833333333333333E-001 -3.833809981779500E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.69 XYZ="3.666666666666667E-001 -3.667122591267349E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.70 XYZ="3.500000000000000E-001 -3.500435200755196E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.71 XYZ="3.333333333333334E-001 -3.333747810243045E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.72 XYZ="3.166666666666667E-001 -3.167060419730892E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.73 XYZ="3.000000000000000E-001 -3.000373029218740E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.74 XYZ="2.833333333333333E-001 -2.833685638706587E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.75 XYZ="2.666666666666667E-001 -2.666998248194435E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.76 XYZ="2.500000000000000E-001 -2.500310857682283E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.77 XYZ="2.333333333333333E-001 -2.333623467170131E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.78 XYZ="2.166666666666667E-001 -2.166936076657979E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.79 XYZ="2.000000000000000E-001 -2.000248686145827E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.80 XYZ="1.833333333333333E-001 -1.833561295633674E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.81 XYZ="1.666666666666667E-001 -1.666873905121522E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.82 XYZ="1.500000000000000E-001 -1.500186514609370E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.83 XYZ="1.333333333333334E-001 -1.333499124097218E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.84 XYZ="1.166666666666667E-001 -1.166811733585066E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.85 XYZ="9.999999999999998E-002 -1.000124343072913E-001 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.86 XYZ="8.333333333333331E-002 -8.334369525607609E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.87 XYZ="6.666666666666665E-002 -6.667495620486087E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.88 XYZ="4.999999999999999E-002 -5.000621715364565E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.89 XYZ="3.333333333333333E-002 -3.333747810243044E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
+    <K-POINT.90 XYZ="1.666666666666666E-002 -1.666873905121522E-002 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
     <K-POINT.91 XYZ="0.000000000000000E+000 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.098901098901099E-002"/>
     <STARTING_K-POINTS type="integer" size="1">
         91
@@ -1096,65 +576,65 @@ F
     <K-POINT_START.29 XYZ="4.666666666666667E-001 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
     <K-POINT_START.30 XYZ="4.833333333333333E-001 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
     <K-POINT_START.31 XYZ="5.000000000000000E-001 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.32 XYZ="5.000000000000000E-001 -1.666666666666667E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.33 XYZ="5.000000000000000E-001 -3.333333333333333E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.34 XYZ="5.000000000000000E-001 -5.000000000000000E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.35 XYZ="5.000000000000000E-001 -6.666666666666667E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.36 XYZ="5.000000000000000E-001 -8.333333333333333E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.37 XYZ="5.000000000000000E-001 -1.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.38 XYZ="5.000000000000000E-001 -1.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.39 XYZ="5.000000000000000E-001 -1.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.40 XYZ="5.000000000000000E-001 -1.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.41 XYZ="5.000000000000000E-001 -1.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.42 XYZ="5.000000000000000E-001 -1.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.43 XYZ="5.000000000000000E-001 -2.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.44 XYZ="5.000000000000000E-001 -2.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.45 XYZ="5.000000000000000E-001 -2.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.46 XYZ="5.000000000000000E-001 -2.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.47 XYZ="5.000000000000000E-001 -2.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.48 XYZ="5.000000000000000E-001 -2.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.49 XYZ="5.000000000000000E-001 -3.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.50 XYZ="5.000000000000000E-001 -3.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.51 XYZ="5.000000000000000E-001 -3.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.52 XYZ="5.000000000000000E-001 -3.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.53 XYZ="5.000000000000000E-001 -3.666666666666666E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.54 XYZ="5.000000000000000E-001 -3.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.55 XYZ="5.000000000000000E-001 -4.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.56 XYZ="5.000000000000000E-001 -4.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.57 XYZ="5.000000000000000E-001 -4.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.58 XYZ="5.000000000000000E-001 -4.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.59 XYZ="5.000000000000000E-001 -4.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.60 XYZ="5.000000000000000E-001 -4.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.61 XYZ="5.000000000000000E-001 -5.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.62 XYZ="4.833333333333333E-001 -4.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.63 XYZ="4.666666666666667E-001 -4.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.64 XYZ="4.500000000000000E-001 -4.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.65 XYZ="4.333333333333333E-001 -4.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.66 XYZ="4.166666666666667E-001 -4.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.67 XYZ="4.000000000000000E-001 -4.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.68 XYZ="3.833333333333333E-001 -3.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.69 XYZ="3.666666666666667E-001 -3.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.70 XYZ="3.500000000000000E-001 -3.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.71 XYZ="3.333333333333334E-001 -3.333333333333334E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.72 XYZ="3.166666666666667E-001 -3.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.73 XYZ="3.000000000000000E-001 -3.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.74 XYZ="2.833333333333333E-001 -2.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.75 XYZ="2.666666666666667E-001 -2.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.76 XYZ="2.500000000000000E-001 -2.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.77 XYZ="2.333333333333333E-001 -2.333333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.78 XYZ="2.166666666666667E-001 -2.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.79 XYZ="2.000000000000000E-001 -2.000000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.80 XYZ="1.833333333333333E-001 -1.833333333333333E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.81 XYZ="1.666666666666667E-001 -1.666666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.82 XYZ="1.500000000000000E-001 -1.500000000000000E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.83 XYZ="1.333333333333334E-001 -1.333333333333334E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.84 XYZ="1.166666666666667E-001 -1.166666666666667E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.85 XYZ="9.999999999999998E-002 -9.999999999999998E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.86 XYZ="8.333333333333331E-002 -8.333333333333331E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.87 XYZ="6.666666666666665E-002 -6.666666666666665E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.88 XYZ="4.999999999999999E-002 -4.999999999999999E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.89 XYZ="3.333333333333333E-002 -3.333333333333333E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
-    <K-POINT_START.90 XYZ="1.666666666666666E-002 -1.666666666666666E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.32 XYZ="5.000000000000000E-001 -1.666873905121522E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.33 XYZ="5.000000000000000E-001 -3.333747810243044E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.34 XYZ="5.000000000000000E-001 -5.000621715364566E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.35 XYZ="5.000000000000000E-001 -6.667495620486089E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.36 XYZ="5.000000000000000E-001 -8.334369525607610E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.37 XYZ="5.000000000000000E-001 -1.000124343072913E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.38 XYZ="5.000000000000000E-001 -1.166811733585065E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.39 XYZ="5.000000000000000E-001 -1.333499124097218E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.40 XYZ="5.000000000000000E-001 -1.500186514609370E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.41 XYZ="5.000000000000000E-001 -1.666873905121522E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.42 XYZ="5.000000000000000E-001 -1.833561295633674E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.43 XYZ="5.000000000000000E-001 -2.000248686145827E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.44 XYZ="5.000000000000000E-001 -2.166936076657979E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.45 XYZ="5.000000000000000E-001 -2.333623467170131E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.46 XYZ="5.000000000000000E-001 -2.500310857682283E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.47 XYZ="5.000000000000000E-001 -2.666998248194435E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.48 XYZ="5.000000000000000E-001 -2.833685638706587E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.49 XYZ="5.000000000000000E-001 -3.000373029218740E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.50 XYZ="5.000000000000000E-001 -3.167060419730892E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.51 XYZ="5.000000000000000E-001 -3.333747810243044E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.52 XYZ="5.000000000000000E-001 -3.500435200755196E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.53 XYZ="5.000000000000000E-001 -3.667122591267348E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.54 XYZ="5.000000000000000E-001 -3.833809981779500E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.55 XYZ="5.000000000000000E-001 -4.000497372291653E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.56 XYZ="5.000000000000000E-001 -4.167184762803805E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.57 XYZ="5.000000000000000E-001 -4.333872153315957E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.58 XYZ="5.000000000000000E-001 -4.500559543828109E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.59 XYZ="5.000000000000000E-001 -4.667246934340262E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.60 XYZ="5.000000000000000E-001 -4.833934324852414E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.61 XYZ="5.000000000000000E-001 -5.000621715364566E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.62 XYZ="4.833333333333333E-001 -4.833934324852414E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.63 XYZ="4.666666666666667E-001 -4.667246934340262E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.64 XYZ="4.500000000000000E-001 -4.500559543828109E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.65 XYZ="4.333333333333333E-001 -4.333872153315957E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.66 XYZ="4.166666666666667E-001 -4.167184762803805E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.67 XYZ="4.000000000000000E-001 -4.000497372291653E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.68 XYZ="3.833333333333333E-001 -3.833809981779500E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.69 XYZ="3.666666666666667E-001 -3.667122591267349E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.70 XYZ="3.500000000000000E-001 -3.500435200755196E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.71 XYZ="3.333333333333334E-001 -3.333747810243045E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.72 XYZ="3.166666666666667E-001 -3.167060419730892E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.73 XYZ="3.000000000000000E-001 -3.000373029218740E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.74 XYZ="2.833333333333333E-001 -2.833685638706587E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.75 XYZ="2.666666666666667E-001 -2.666998248194435E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.76 XYZ="2.500000000000000E-001 -2.500310857682283E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.77 XYZ="2.333333333333333E-001 -2.333623467170131E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.78 XYZ="2.166666666666667E-001 -2.166936076657979E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.79 XYZ="2.000000000000000E-001 -2.000248686145827E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.80 XYZ="1.833333333333333E-001 -1.833561295633674E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.81 XYZ="1.666666666666667E-001 -1.666873905121522E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.82 XYZ="1.500000000000000E-001 -1.500186514609370E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.83 XYZ="1.333333333333334E-001 -1.333499124097218E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.84 XYZ="1.166666666666667E-001 -1.166811733585066E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.85 XYZ="9.999999999999998E-002 -1.000124343072913E-001 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.86 XYZ="8.333333333333331E-002 -8.334369525607609E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.87 XYZ="6.666666666666665E-002 -6.667495620486087E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.88 XYZ="4.999999999999999E-002 -5.000621715364565E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.89 XYZ="3.333333333333333E-002 -3.333747810243044E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
+    <K-POINT_START.90 XYZ="1.666666666666666E-002 -1.666873905121522E-002 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
     <K-POINT_START.91 XYZ="0.000000000000000E+000 0.000000000000000E+000 0.000000000000000E+000" WEIGHT="1.000000000000000E+000"/>
     <NORM-OF-Q type="real" size="1">
  0.000000000000000E+000
@@ -1199,8 +679,8 @@ F
     <NUMBER_OF_ATOMIC_WFC type="integer" size="1">
         40
     </NUMBER_OF_ATOMIC_WFC>
-    <NUMBER_OF_BANDS type="integer" size="1" UP="20" DW="20">
-        20
+    <NUMBER_OF_BANDS type="integer" size="1" UP="40" DW="40">
+        40
     </NUMBER_OF_BANDS>
     <NUMBER_OF_ELECTRONS type="real" size="1" UP="25" DW="24">
  4.900000000000000E+001
@@ -1208,7 +688,7 @@ F
     <UNITS_FOR_K-POINTS UNITS="2 pi / a"/>
     <UNITS_FOR_ENERGIES UNITS="Hartree"/>
     <FERMI_ENERGY type="real" size="1">
- 5.222431673050096E-001
+ 5.300915569897480E-001
     </FERMI_ENERGY>
   </BAND_STRUCTURE_INFO>
   <EIGENVALUES>
@@ -1648,7 +1128,7 @@ F
     </K-POINT.31>
     <K-POINT.32>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.666666666666667E-002  0.000000000000000E+000
+ 5.000000000000000E-001 -1.666873905121522E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1662,7 +1142,7 @@ F
     </K-POINT.32>
     <K-POINT.33>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.333333333333333E-002  0.000000000000000E+000
+ 5.000000000000000E-001 -3.333747810243044E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1676,7 +1156,7 @@ F
     </K-POINT.33>
     <K-POINT.34>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -5.000000000000000E-002  0.000000000000000E+000
+ 5.000000000000000E-001 -5.000621715364566E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1690,7 +1170,7 @@ F
     </K-POINT.34>
     <K-POINT.35>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -6.666666666666667E-002  0.000000000000000E+000
+ 5.000000000000000E-001 -6.667495620486089E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1704,7 +1184,7 @@ F
     </K-POINT.35>
     <K-POINT.36>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -8.333333333333333E-002  0.000000000000000E+000
+ 5.000000000000000E-001 -8.334369525607610E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1718,7 +1198,7 @@ F
     </K-POINT.36>
     <K-POINT.37>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.000000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -1.000124343072913E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1732,7 +1212,7 @@ F
     </K-POINT.37>
     <K-POINT.38>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.166666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -1.166811733585065E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1746,7 +1226,7 @@ F
     </K-POINT.38>
     <K-POINT.39>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.333333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -1.333499124097218E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1760,7 +1240,7 @@ F
     </K-POINT.39>
     <K-POINT.40>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.500000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -1.500186514609370E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1774,7 +1254,7 @@ F
     </K-POINT.40>
     <K-POINT.41>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.666666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -1.666873905121522E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1788,7 +1268,7 @@ F
     </K-POINT.41>
     <K-POINT.42>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -1.833333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -1.833561295633674E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1802,7 +1282,7 @@ F
     </K-POINT.42>
     <K-POINT.43>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -2.000000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -2.000248686145827E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1816,7 +1296,7 @@ F
     </K-POINT.43>
     <K-POINT.44>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -2.166666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -2.166936076657979E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1830,7 +1310,7 @@ F
     </K-POINT.44>
     <K-POINT.45>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -2.333333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -2.333623467170131E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1844,7 +1324,7 @@ F
     </K-POINT.45>
     <K-POINT.46>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -2.500000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -2.500310857682283E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1858,7 +1338,7 @@ F
     </K-POINT.46>
     <K-POINT.47>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -2.666666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -2.666998248194435E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1872,7 +1352,7 @@ F
     </K-POINT.47>
     <K-POINT.48>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -2.833333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -2.833685638706587E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1886,7 +1366,7 @@ F
     </K-POINT.48>
     <K-POINT.49>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.000000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -3.000373029218740E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1900,7 +1380,7 @@ F
     </K-POINT.49>
     <K-POINT.50>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.166666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -3.167060419730892E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1914,7 +1394,7 @@ F
     </K-POINT.50>
     <K-POINT.51>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.333333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -3.333747810243044E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1928,7 +1408,7 @@ F
     </K-POINT.51>
     <K-POINT.52>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.500000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -3.500435200755196E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1942,7 +1422,7 @@ F
     </K-POINT.52>
     <K-POINT.53>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.666666666666666E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -3.667122591267348E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1956,7 +1436,7 @@ F
     </K-POINT.53>
     <K-POINT.54>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -3.833333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -3.833809981779500E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1970,7 +1450,7 @@ F
     </K-POINT.54>
     <K-POINT.55>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -4.000000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -4.000497372291653E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1984,7 +1464,7 @@ F
     </K-POINT.55>
     <K-POINT.56>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -4.166666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -4.167184762803805E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -1998,7 +1478,7 @@ F
     </K-POINT.56>
     <K-POINT.57>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -4.333333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -4.333872153315957E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2012,7 +1492,7 @@ F
     </K-POINT.57>
     <K-POINT.58>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -4.500000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -4.500559543828109E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2026,7 +1506,7 @@ F
     </K-POINT.58>
     <K-POINT.59>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -4.666666666666667E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -4.667246934340262E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2040,7 +1520,7 @@ F
     </K-POINT.59>
     <K-POINT.60>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -4.833333333333333E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -4.833934324852414E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2054,7 +1534,7 @@ F
     </K-POINT.60>
     <K-POINT.61>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 5.000000000000000E-001 -5.000000000000000E-001  0.000000000000000E+000
+ 5.000000000000000E-001 -5.000621715364566E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2068,7 +1548,7 @@ F
     </K-POINT.61>
     <K-POINT.62>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.833333333333333E-001 -4.833333333333333E-001  0.000000000000000E+000
+ 4.833333333333333E-001 -4.833934324852414E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2082,7 +1562,7 @@ F
     </K-POINT.62>
     <K-POINT.63>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.666666666666667E-001 -4.666666666666667E-001  0.000000000000000E+000
+ 4.666666666666667E-001 -4.667246934340262E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2096,7 +1576,7 @@ F
     </K-POINT.63>
     <K-POINT.64>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.500000000000000E-001 -4.500000000000000E-001  0.000000000000000E+000
+ 4.500000000000000E-001 -4.500559543828109E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2110,7 +1590,7 @@ F
     </K-POINT.64>
     <K-POINT.65>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.333333333333333E-001 -4.333333333333333E-001  0.000000000000000E+000
+ 4.333333333333333E-001 -4.333872153315957E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2124,7 +1604,7 @@ F
     </K-POINT.65>
     <K-POINT.66>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.166666666666667E-001 -4.166666666666667E-001  0.000000000000000E+000
+ 4.166666666666667E-001 -4.167184762803805E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2138,7 +1618,7 @@ F
     </K-POINT.66>
     <K-POINT.67>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.000000000000000E-001 -4.000000000000000E-001  0.000000000000000E+000
+ 4.000000000000000E-001 -4.000497372291653E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2152,7 +1632,7 @@ F
     </K-POINT.67>
     <K-POINT.68>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.833333333333333E-001 -3.833333333333333E-001  0.000000000000000E+000
+ 3.833333333333333E-001 -3.833809981779500E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2166,7 +1646,7 @@ F
     </K-POINT.68>
     <K-POINT.69>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.666666666666667E-001 -3.666666666666667E-001  0.000000000000000E+000
+ 3.666666666666667E-001 -3.667122591267349E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2180,7 +1660,7 @@ F
     </K-POINT.69>
     <K-POINT.70>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.500000000000000E-001 -3.500000000000000E-001  0.000000000000000E+000
+ 3.500000000000000E-001 -3.500435200755196E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2194,7 +1674,7 @@ F
     </K-POINT.70>
     <K-POINT.71>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.333333333333334E-001 -3.333333333333334E-001  0.000000000000000E+000
+ 3.333333333333334E-001 -3.333747810243045E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2208,7 +1688,7 @@ F
     </K-POINT.71>
     <K-POINT.72>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.166666666666667E-001 -3.166666666666667E-001  0.000000000000000E+000
+ 3.166666666666667E-001 -3.167060419730892E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2222,7 +1702,7 @@ F
     </K-POINT.72>
     <K-POINT.73>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.000000000000000E-001 -3.000000000000000E-001  0.000000000000000E+000
+ 3.000000000000000E-001 -3.000373029218740E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2236,7 +1716,7 @@ F
     </K-POINT.73>
     <K-POINT.74>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 2.833333333333333E-001 -2.833333333333333E-001  0.000000000000000E+000
+ 2.833333333333333E-001 -2.833685638706587E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2250,7 +1730,7 @@ F
     </K-POINT.74>
     <K-POINT.75>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 2.666666666666667E-001 -2.666666666666667E-001  0.000000000000000E+000
+ 2.666666666666667E-001 -2.666998248194435E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2264,7 +1744,7 @@ F
     </K-POINT.75>
     <K-POINT.76>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 2.500000000000000E-001 -2.500000000000000E-001  0.000000000000000E+000
+ 2.500000000000000E-001 -2.500310857682283E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2278,7 +1758,7 @@ F
     </K-POINT.76>
     <K-POINT.77>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 2.333333333333333E-001 -2.333333333333333E-001  0.000000000000000E+000
+ 2.333333333333333E-001 -2.333623467170131E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2292,7 +1772,7 @@ F
     </K-POINT.77>
     <K-POINT.78>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 2.166666666666667E-001 -2.166666666666667E-001  0.000000000000000E+000
+ 2.166666666666667E-001 -2.166936076657979E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2306,7 +1786,7 @@ F
     </K-POINT.78>
     <K-POINT.79>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 2.000000000000000E-001 -2.000000000000000E-001  0.000000000000000E+000
+ 2.000000000000000E-001 -2.000248686145827E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2320,7 +1800,7 @@ F
     </K-POINT.79>
     <K-POINT.80>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 1.833333333333333E-001 -1.833333333333333E-001  0.000000000000000E+000
+ 1.833333333333333E-001 -1.833561295633674E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2334,7 +1814,7 @@ F
     </K-POINT.80>
     <K-POINT.81>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 1.666666666666667E-001 -1.666666666666667E-001  0.000000000000000E+000
+ 1.666666666666667E-001 -1.666873905121522E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2348,7 +1828,7 @@ F
     </K-POINT.81>
     <K-POINT.82>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 1.500000000000000E-001 -1.500000000000000E-001  0.000000000000000E+000
+ 1.500000000000000E-001 -1.500186514609370E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2362,7 +1842,7 @@ F
     </K-POINT.82>
     <K-POINT.83>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 1.333333333333334E-001 -1.333333333333334E-001  0.000000000000000E+000
+ 1.333333333333334E-001 -1.333499124097218E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2376,7 +1856,7 @@ F
     </K-POINT.83>
     <K-POINT.84>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 1.166666666666667E-001 -1.166666666666667E-001  0.000000000000000E+000
+ 1.166666666666667E-001 -1.166811733585066E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2390,7 +1870,7 @@ F
     </K-POINT.84>
     <K-POINT.85>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 9.999999999999998E-002 -9.999999999999998E-002  0.000000000000000E+000
+ 9.999999999999998E-002 -1.000124343072913E-001  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2404,7 +1884,7 @@ F
     </K-POINT.85>
     <K-POINT.86>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 8.333333333333331E-002 -8.333333333333331E-002  0.000000000000000E+000
+ 8.333333333333331E-002 -8.334369525607609E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2418,7 +1898,7 @@ F
     </K-POINT.86>
     <K-POINT.87>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 6.666666666666665E-002 -6.666666666666665E-002  0.000000000000000E+000
+ 6.666666666666665E-002 -6.667495620486087E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2432,7 +1912,7 @@ F
     </K-POINT.87>
     <K-POINT.88>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 4.999999999999999E-002 -4.999999999999999E-002  0.000000000000000E+000
+ 4.999999999999999E-002 -5.000621715364565E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2446,7 +1926,7 @@ F
     </K-POINT.88>
     <K-POINT.89>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 3.333333333333333E-002 -3.333333333333333E-002  0.000000000000000E+000
+ 3.333333333333333E-002 -3.333747810243044E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2460,7 +1940,7 @@ F
     </K-POINT.89>
     <K-POINT.90>
       <K-POINT_COORDS type="real" size="3" columns="3">
- 1.666666666666666E-002 -1.666666666666666E-002  0.000000000000000E+000
+ 1.666666666666666E-002 -1.666873905121522E-002  0.000000000000000E+000
       </K-POINT_COORDS>
       <WEIGHT type="real" size="1">
  1.098901098901099E-002
@@ -2489,106 +1969,106 @@ F
   </EIGENVALUES>
   <EIGENVECTORS>
     <MAX_NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1503
+      1492
     </MAX_NUMBER_OF_GK-VECTORS>
     <K-POINT.1>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1503
+      1419
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.1>
     <K-POINT.2>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1471
+      1419
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.2>
     <K-POINT.3>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1471
+      1435
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.3>
     <K-POINT.4>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1467
+      1451
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.4>
     <K-POINT.5>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1467
+      1442
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.5>
     <K-POINT.6>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1442
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.6>
     <K-POINT.7>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1446
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.7>
     <K-POINT.8>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1446
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.8>
     <K-POINT.9>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1446
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.9>
     <K-POINT.10>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1448
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.10>
     <K-POINT.11>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1450
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.11>
     <K-POINT.12>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1442
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.12>
     <K-POINT.13>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1446
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.13>
     <K-POINT.14>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1442
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.14>
     <K-POINT.15>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1442
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.15>
     <K-POINT.16>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1482
+      1446
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.16>
     <K-POINT.17>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1458
+      1446
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.17>
     <K-POINT.18>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1458
+      1454
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.18>
     <K-POINT.19>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.19>
     <K-POINT.20>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.20>
     <K-POINT.21>
@@ -2598,32 +2078,32 @@ F
     </K-POINT.21>
     <K-POINT.22>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1462
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.22>
     <K-POINT.23>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1462
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.23>
     <K-POINT.24>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1462
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.24>
     <K-POINT.25>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1470
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.25>
     <K-POINT.26>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1458
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.26>
     <K-POINT.27>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1462
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.27>
     <K-POINT.28>
@@ -2633,12 +2113,12 @@ F
     </K-POINT.28>
     <K-POINT.29>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1462
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.29>
     <K-POINT.30>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1462
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.30>
     <K-POINT.31>
@@ -2648,147 +2128,147 @@ F
     </K-POINT.31>
     <K-POINT.32>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1462
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.32>
     <K-POINT.33>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1460
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.33>
     <K-POINT.34>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1482
+      1456
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.34>
     <K-POINT.35>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1480
+      1464
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.35>
     <K-POINT.36>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1472
+      1464
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.36>
     <K-POINT.37>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1482
+      1464
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.37>
     <K-POINT.38>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1482
+      1462
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.38>
     <K-POINT.39>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1482
+      1464
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.39>
     <K-POINT.40>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1480
+      1472
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.40>
     <K-POINT.41>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1484
+      1472
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.41>
     <K-POINT.42>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1484
+      1472
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.42>
     <K-POINT.43>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1488
+      1476
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.43>
     <K-POINT.44>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1494
+      1476
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.44>
     <K-POINT.45>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1476
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.45>
     <K-POINT.46>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1468
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.46>
     <K-POINT.47>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1482
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.47>
     <K-POINT.48>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1502
+      1478
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.48>
     <K-POINT.49>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1470
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.49>
     <K-POINT.50>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1494
+      1474
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.50>
     <K-POINT.51>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1482
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.51>
     <K-POINT.52>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1486
+      1474
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.52>
     <K-POINT.53>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1490
+      1474
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.53>
     <K-POINT.54>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1488
+      1474
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.54>
     <K-POINT.55>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1488
+      1474
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.55>
     <K-POINT.56>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1488
+      1478
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.56>
     <K-POINT.57>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1492
+      1476
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.57>
     <K-POINT.58>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1492
+      1476
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.58>
     <K-POINT.59>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1492
+      1480
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.59>
     <K-POINT.60>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1492
+      1488
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.60>
     <K-POINT.61>
@@ -2798,72 +2278,72 @@ F
     </K-POINT.61>
     <K-POINT.62>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1492
+      1484
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.62>
     <K-POINT.63>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1488
+      1480
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.63>
     <K-POINT.64>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1490
+      1482
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.64>
     <K-POINT.65>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1490
+      1482
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.65>
     <K-POINT.66>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1494
+      1476
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.66>
     <K-POINT.67>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1484
+      1478
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.67>
     <K-POINT.68>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1492
+      1478
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.68>
     <K-POINT.69>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1496
+      1480
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.69>
     <K-POINT.70>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1500
+      1470
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.70>
     <K-POINT.71>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1478
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.71>
     <K-POINT.72>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1498
+      1474
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.72>
     <K-POINT.73>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1484
+      1470
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.73>
     <K-POINT.74>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1480
+      1470
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.74>
     <K-POINT.75>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1488
+      1470
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.75>
     <K-POINT.76>
@@ -2873,12 +2353,12 @@ F
     </K-POINT.76>
     <K-POINT.77>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1480
+      1464
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.77>
     <K-POINT.78>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1476
+      1462
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.78>
     <K-POINT.79>
@@ -2888,62 +2368,62 @@ F
     </K-POINT.79>
     <K-POINT.80>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1468
+      1460
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.80>
     <K-POINT.81>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1472
+      1448
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.81>
     <K-POINT.82>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1440
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.82>
     <K-POINT.83>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1462
+      1440
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.83>
     <K-POINT.84>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1464
+      1440
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.84>
     <K-POINT.85>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1468
+      1436
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.85>
     <K-POINT.86>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1466
+      1440
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.86>
     <K-POINT.87>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1460
+      1436
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.87>
     <K-POINT.88>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1464
+      1436
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.88>
     <K-POINT.89>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1474
+      1444
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.89>
     <K-POINT.90>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1478
+      1424
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.90>
     <K-POINT.91>
       <NUMBER_OF_GK-VECTORS type="integer" size="1">
-      1503
+      1419
       </NUMBER_OF_GK-VECTORS>
     </K-POINT.91>
   </EIGENVECTORS>

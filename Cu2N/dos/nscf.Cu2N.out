@@ -6,10 +6,10 @@ not available due to restrictive ptrace settings.
 The vader shared memory BTL will fall back on another single-copy
 mechanism if one is available. This may result in lower performance.
 
-  Local host: Rijuki
+  Local host: DESKTOP-L90FV74
 --------------------------------------------------------------------------
 
-     Program PWSCF v.6.0 (svn rev. 13079) starts on 24Apr2020 at  1:38: 4 
+     Program PWSCF v.6.0 (svn rev. 13079) starts on 14Jul2020 at 13:28:24 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -18,8 +18,8 @@ mechanism if one is available. This may result in lower performance.
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
 
-     Parallel version (MPI), running on    15 processors
-     R & G space division:  proc/nbgrp/npool/nimage =      15
+     Parallel version (MPI), running on    12 processors
+     R & G space division:  proc/nbgrp/npool/nimage =      12
      Waiting for input...
      Reading input from standard input
 
@@ -42,15 +42,15 @@ mechanism if one is available. This may result in lower performance.
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min          32      32      9                  520      520      89
-     Max          33      33     10                  523      523      92
-     Sum         481     481    145                 7809     7809    1357
+     Min          40      40     12                  640      640     112
+     Max          41      41     13                  642      642     115
+     Sum         481     481    145                 7689     7689    1357
 
 
 
      bravais-lattice index     =            0
-     lattice parameter (alat)  =       7.0298  a.u.
-     unit-cell volume          =     347.3965 (a.u.)^3
+     lattice parameter (alat)  =       7.0055  a.u.
+     unit-cell volume          =     343.7659 (a.u.)^3
      number of atoms/cell      =            5
      number of atomic types    =            2
      number of electrons       =        49.00
@@ -59,23 +59,23 @@ mechanism if one is available. This may result in lower performance.
      charge density cutoff     =     120.0000  Ry
      Exchange-correlation      =  SLA  PW   PBX  PBC ( 1  4  3  4 0 0)
 
-     celldm(1)=   7.029781  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(1)=   7.005497  celldm(2)=   0.000000  celldm(3)=   0.000000
      celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
 
      crystal axes: (cart. coord. in units of alat)
                a(1) = (   1.000000   0.000000   0.000000 )  
-               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(2) = (   0.000000   0.999876   0.000000 )  
                a(3) = (   0.000000   0.000000   1.000000 )  
 
      reciprocal axes: (cart. coord. in units 2 pi/alat)
                b(1) = (  1.000000  0.000000  0.000000 )  
-               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(2) = (  0.000000  1.000124  0.000000 )  
                b(3) = (  0.000000  0.000000  1.000000 )  
 
 
      PseudoPot. # 1 for Cu read from file:
      ../pseudo/Cu.pbe-dn-kjpaw_psl.1.0.0.UPF
-     MD5 check sum: cfffd1f38ee05704b3e17f46f1730a6f
+     MD5 check sum: d0575d8777d02cc05b6679c1e3a9a036
      Pseudo is Projector augmented-wave + core cor, Zval = 11.0
      Generated using "atomic" code by A. Dal Corso  v.6.3
      Shape of augmentation charge: PSQ
@@ -91,7 +91,7 @@ mechanism if one is available. This may result in lower performance.
 
      PseudoPot. # 2 for  N read from file:
      ../pseudo/N.pbe-n-kjpaw_psl.1.0.0.UPF
-     MD5 check sum: 14c48229446f9f2d411169a3abcbc3fa
+     MD5 check sum: 57d39628416b425e94b4a4c0ec66cafa
      Pseudo is Projector augmented-wave + core cor, Zval =  5.0
      Generated using "atomic" code by A. Dal Corso  v.6.3
      Shape of augmentation charge: PSQ
@@ -112,32 +112,31 @@ mechanism if one is available. This may result in lower performance.
         Cu           0.000
         N            0.000
 
-     16 Sym. Ops., with inversion, found
-          (note: 32 additional sym.ops. were found but ignored
-           their fractional translations are incommensurate with FFT grid)
+      4 Sym. Ops. (no inversion) found
+
 
 
    Cartesian axes
 
      site n.     atom                  positions (alat units)
          1           Cu  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
-         2           Cu  tau(   2) = (   0.5000000   0.5000000   0.0000000  )
-         3           Cu  tau(   3) = (   0.0000000   0.5000000   0.5000000  )
-         4           Cu  tau(   4) = (   0.5000000   0.0000000   0.5000000  )
-         5           N   tau(   5) = (   0.0000000   0.5000000   1.0000000  )
+         2           Cu  tau(   2) = (   0.5000000   0.4999378   0.0000000  )
+         3           Cu  tau(   3) = (   0.0000000   0.4999378   0.4749170  )
+         4           Cu  tau(   4) = (   0.5000000   0.0000000   0.4747944  )
+         5           N   tau(   5) = (   0.0000000   0.4999378   0.9976365  )
 
-     number of k points=   126  gaussian smearing, width (Ry)=  0.0200
+     number of k points=   216  gaussian smearing, width (Ry)=  0.0200
 
      Number of k-points >= 100: set verbosity='high' to print them.
 
-     Dense  grid:     7809 G-vectors     FFT dimensions: (  25,  25,  25)
+     Dense  grid:     7689 G-vectors     FFT dimensions: (  25,  25,  25)
 
-     Estimated max dynamical RAM per process >       0.71Mb
+     Estimated max dynamical RAM per process >       0.87Mb
 
-     Estimated total allocated dynamical RAM >      10.62Mb
+     Estimated total allocated dynamical RAM >      10.44Mb
      Generating pointlists ...
-     new r_m :   0.2062 (alat units)  1.4499 (a.u.) for type    1
-     new r_m :   0.2062 (alat units)  1.4499 (a.u.) for type    2
+     new r_m :   0.1969 (alat units)  1.3792 (a.u.) for type    1
+     new r_m :   0.1969 (alat units)  1.3792 (a.u.) for type    2
 
      Check: negative/imaginary core charge=   -0.000075    0.000000
 
@@ -152,60 +151,60 @@ mechanism if one is available. This may result in lower performance.
 
      ethr =  2.04E-13,  avg # of iterations = 23.5
 
-     total cpu time spent up to now is      360.7 secs
+     total cpu time spent up to now is      122.3 secs
 
      End of band structure calculation
 
      Number of k-points >= 100: set verbosity='high' to print the bands.
 
-     the Fermi energy is    14.2775 ev
+     the Fermi energy is    14.4933 ev
 
      Writing output data file Cu2N.save
 
-     init_run     :      1.20s CPU      5.64s WALL (       1 calls)
-     electrons    :    158.94s CPU    351.38s WALL (       1 calls)
+     init_run     :      1.34s CPU      1.86s WALL (       1 calls)
+     electrons    :     65.14s CPU    119.63s WALL (       1 calls)
 
      Called by init_run:
      wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
-     potinit      :      0.66s CPU      3.36s WALL (       1 calls)
+     potinit      :      0.67s CPU      1.03s WALL (       1 calls)
 
      Called by electrons:
-     c_bands      :    158.92s CPU    351.36s WALL (       1 calls)
-     v_of_rho     :      0.00s CPU      0.03s WALL (       1 calls)
-     newd         :      0.00s CPU      0.03s WALL (       1 calls)
-     PAW_pot      :      0.64s CPU      3.29s WALL (       1 calls)
+     c_bands      :     65.14s CPU    119.62s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.01s WALL (       1 calls)
+     newd         :      0.00s CPU      0.01s WALL (       1 calls)
+     PAW_pot      :      0.67s CPU      1.02s WALL (       1 calls)
 
      Called by c_bands:
-     init_us_2    :      0.00s CPU      0.03s WALL (     252 calls)
-     cegterg      :    153.86s CPU    335.70s WALL (     457 calls)
+     init_us_2    :      0.02s CPU      0.02s WALL (     432 calls)
+     cegterg      :     62.66s CPU    113.35s WALL (     786 calls)
 
      Called by sum_band:
 
      Called by *egterg:
-     h_psi        :     27.91s CPU    100.85s WALL (    6636 calls)
-     s_psi        :      3.61s CPU      3.38s WALL (    6636 calls)
-     g_psi        :      0.12s CPU      0.06s WALL (    5927 calls)
-     cdiaghg      :     70.12s CPU    116.53s WALL (    6179 calls)
+     h_psi        :     15.64s CPU     36.18s WALL (   11375 calls)
+     s_psi        :      1.58s CPU      1.97s WALL (   11375 calls)
+     g_psi        :      0.12s CPU      0.05s WALL (   10157 calls)
+     cdiaghg      :     35.31s CPU     50.99s WALL (   10589 calls)
 
      Called by h_psi:
-     h_psi:pot    :     27.83s CPU    100.76s WALL (    6636 calls)
-     h_psi:calbec :      6.89s CPU     26.83s WALL (    6636 calls)
-     vloc_psi     :     17.58s CPU     70.40s WALL (    6636 calls)
-     add_vuspsi   :      3.33s CPU      3.46s WALL (    6636 calls)
+     h_psi:pot    :     15.62s CPU     36.11s WALL (   11375 calls)
+     h_psi:calbec :      2.50s CPU      8.56s WALL (   11375 calls)
+     vloc_psi     :     11.03s CPU     25.48s WALL (   11375 calls)
+     add_vuspsi   :      2.08s CPU      2.03s WALL (   11375 calls)
 
      General routines
-     calbec       :      6.89s CPU     26.79s WALL (    6636 calls)
-     fft          :      0.00s CPU      0.06s WALL (      21 calls)
-     fftw         :     16.62s CPU     69.09s WALL (  232002 calls)
-     davcio       :      0.00s CPU      0.02s WALL (     252 calls)
+     calbec       :      2.45s CPU      8.53s WALL (   11375 calls)
+     fft          :      0.00s CPU      0.02s WALL (      21 calls)
+     fftw         :     10.31s CPU     24.46s WALL (  398364 calls)
+     davcio       :      0.00s CPU      0.28s WALL (     432 calls)
 
      Parallel routines
-     fft_scatter  :     12.19s CPU     63.49s WALL (  232023 calls)
+     fft_scatter  :      6.48s CPU     20.09s WALL (  398385 calls)
 
-     PWSCF        :  2m41.98s CPU     6m 4.43s WALL
+     PWSCF        :  1m 7.20s CPU     2m 4.40s WALL
 
 
-   This run was terminated on:   1:44: 9  24Apr2020            
+   This run was terminated on:  13:30:29  14Jul2020            
 
 =------------------------------------------------------------------------------=
    JOB DONE.
